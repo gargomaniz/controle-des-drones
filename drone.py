@@ -117,6 +117,8 @@ def move():
       move.move_drone(speed, orient)
       pass
       t = time.time()
+    speed = [0,0,0]
+    orient = [0,0,0]
   t1 = time.time()
   while(time.time()-t1 < 4):
     md.land_drone()
